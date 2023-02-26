@@ -59,11 +59,20 @@ In regular expressions, the characters found inside of square brackets () repres
 In regular expression, Greedy and Lazy quantifiers can be used to note how much of the string we want match. A greedy quantifier will match the longest string possible, signified by (.+), while a Lazy match, signified by ?, will match the shortest possible string. In our expression, we can see any example of a greedy quantifier inside of our first group, after our first bracket expression and inside of our second group, at the end of our second bracket expression. 
 
 ### Boundaries
+In a regex, boundaries are signified by the anchor tag (/b). When found at the beginning of a string, the first character is a word character (any character that can be used to form words). If found after the last character of a string, the preceeding character is a word character. They can also be found inside of a string between a word character and a non-word character. In the email regular expression, there are no examples of a boundary being used. 
 
 ### Back-references
+Back references allow you to match the same characters in a previous capturing group more than once and is defined by (\1). There are no uses of back-references in our expression. 
 
 ### Look-ahead and Look-behind
+Look-aheads and Look-behinds, are matching parameters called "Lookarounds". Much like anchor tags, these define the start and end of a word, but instead of matching a specific matching characters in a string, they just signify whether the string is a match or not a match. They are signified by 
+(?=) Lookahead-
+(?<=) Lookbehind
+(?!=) Negative Lookahead
+(?<!=) Negative Lookbehind
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Michaela Jackson, and I'm a full-stack web developer completing a bootcamp with University of Arizona. I enjoy front-end development, especially custom CSS styling but I am learning to enjoy back-end development as well. Thank you for reading my tutorial! 
+
+https://github.com/mijensine23
